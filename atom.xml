@@ -6,7 +6,7 @@
   <link href="https://dubeicheng.github.io/atom.xml" rel="self"/>
   
   <link href="https://dubeicheng.github.io/"/>
-  <updated>2022-10-29T05:48:18.971Z</updated>
+  <updated>2022-10-28T12:53:51.985Z</updated>
   <id>https://dubeicheng.github.io/</id>
   
   <author>
@@ -21,16 +21,336 @@
     <link href="https://dubeicheng.github.io/2022/10/29/hello-world/"/>
     <id>https://dubeicheng.github.io/2022/10/29/hello-world/</id>
     <published>2022-10-29T05:48:18.971Z</published>
-    <updated>2022-10-29T05:48:18.971Z</updated>
+    <updated>2022-10-28T12:53:51.985Z</updated>
     
     
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
+    <summary type="html">&lt;h1 id=&quot;Hello-World&quot;&gt;&lt;a href=&quot;#Hello-World&quot; class=&quot;headerlink&quot; title=&quot;Hello-World&quot;&gt;&lt;/a&gt;Hello-World&lt;/h1&gt;</summary>
     
     
     
+    
+  </entry>
+  
+  <entry>
+    <title>JVM</title>
+    <link href="https://dubeicheng.github.io/2022/06/24/jvm-xu-ni-ji/"/>
+    <id>https://dubeicheng.github.io/2022/06/24/jvm-xu-ni-ji/</id>
+    <published>2022-06-24T03:25:32.000Z</published>
+    <updated>2022-10-28T12:53:52.028Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;JVM&quot;&gt;&lt;a href=&quot;#JVM&quot; class=&quot;headerlink&quot; title=&quot;JVM&quot;&gt;&lt;/a&gt;JVM&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="JVM" scheme="https://dubeicheng.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网站资源</title>
+    <link href="https://dubeicheng.github.io/2021/11/15/wang-zhan-zi-yuan/"/>
+    <id>https://dubeicheng.github.io/2021/11/15/wang-zhan-zi-yuan/</id>
+    <published>2021-11-15T09:26:50.000Z</published>
+    <updated>2022-10-28T12:53:52.023Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;网站资源&quot;&gt;&lt;a href=&quot;#网站资源&quot; class=&quot;headerlink&quot; title=&quot;网站资源&quot;&gt;&lt;/a&gt;网站资源&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="网站资源" scheme="https://dubeicheng.github.io/tags/%E7%BD%91%E7%AB%99%E8%B5%84%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>软考-中级</title>
+    <link href="https://dubeicheng.github.io/2021/06/15/ruan-kao-zhong-ji/"/>
+    <id>https://dubeicheng.github.io/2021/06/15/ruan-kao-zhong-ji/</id>
+    <published>2021-06-15T08:54:17.000Z</published>
+    <updated>2022-10-28T12:53:52.031Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;软考中级——系统集成项目管理工程师&quot;&gt;&lt;a href=&quot;#软考中级——系统集成项目管理工程师&quot; class=&quot;headerlink&quot; title=&quot;软考中级——系统集成项目管理工程师&quot;&gt;&lt;/a&gt;软考中级——系统集成项目管理工程师&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="软考" scheme="https://dubeicheng.github.io/tags/%E8%BD%AF%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JUC</title>
+    <link href="https://dubeicheng.github.io/2020/11/04/juc/"/>
+    <id>https://dubeicheng.github.io/2020/11/04/juc/</id>
+    <published>2020-11-04T03:25:32.000Z</published>
+    <updated>2022-10-28T12:53:52.008Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;JUC&quot;&gt;&lt;a href=&quot;#JUC&quot; class=&quot;headerlink&quot; title=&quot;JUC&quot;&gt;&lt;/a&gt;JUC&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="JUC 成" scheme="https://dubeicheng.github.io/tags/JUC-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简历</title>
+    <link href="https://dubeicheng.github.io/2020/10/25/jian-li/"/>
+    <id>https://dubeicheng.github.io/2020/10/25/jian-li/</id>
+    <published>2020-10-25T14:57:05.000Z</published>
+    <updated>2022-10-28T12:53:51.990Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;简历-需PDF格式&quot;&gt;&lt;a href=&quot;#简历-需PDF格式&quot; class=&quot;headerlink&quot; title=&quot;简历    需PDF格式&quot;&gt;&lt;/a&gt;简历    &lt;font color=&quot;blue&quot;&gt;需PDF格式&lt;/font&gt;&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="简历 成" scheme="https://dubeicheng.github.io/tags/%E7%AE%80%E5%8E%86-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>总结</title>
+    <link href="https://dubeicheng.github.io/2020/10/25/java-chong-yao-zhi-shi-dian-zong-jie/"/>
+    <id>https://dubeicheng.github.io/2020/10/25/java-chong-yao-zhi-shi-dian-zong-jie/</id>
+    <published>2020-10-25T11:16:55.000Z</published>
+    <updated>2022-10-28T12:53:52.026Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;JAVA重要知识点总结&quot;&gt;&lt;a href=&quot;#JAVA重要知识点总结&quot; class=&quot;headerlink&quot; title=&quot;JAVA重要知识点总结&quot;&gt;&lt;/a&gt;JAVA重要知识点总结&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="Java面试 成" scheme="https://dubeicheng.github.io/tags/Java%E9%9D%A2%E8%AF%95-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设计模式</title>
+    <link href="https://dubeicheng.github.io/2020/06/08/she-ji-mo-shi/"/>
+    <id>https://dubeicheng.github.io/2020/06/08/she-ji-mo-shi/</id>
+    <published>2020-06-08T01:15:09.000Z</published>
+    <updated>2022-10-28T12:53:52.019Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;设计模式&quot;&gt;&lt;a href=&quot;#设计模式&quot; class=&quot;headerlink&quot; title=&quot;设计模式&quot;&gt;&lt;/a&gt;设计模式&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="模式 成" scheme="https://dubeicheng.github.io/tags/%E6%A8%A1%E5%BC%8F-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring</title>
+    <link href="https://dubeicheng.github.io/2020/06/06/spring/"/>
+    <id>https://dubeicheng.github.io/2020/06/06/spring/</id>
+    <published>2020-06-06T09:21:51.000Z</published>
+    <updated>2022-10-28T12:53:52.015Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Spring&quot;&gt;&lt;a href=&quot;#Spring&quot; class=&quot;headerlink&quot; title=&quot;Spring&quot;&gt;&lt;/a&gt;Spring&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="spring 成" scheme="https://dubeicheng.github.io/tags/spring-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML</title>
+    <link href="https://dubeicheng.github.io/2020/05/28/html/"/>
+    <id>https://dubeicheng.github.io/2020/05/28/html/</id>
+    <published>2020-05-28T03:53:02.000Z</published>
+    <updated>2022-10-28T12:53:51.974Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;html&quot;&gt;&lt;a href=&quot;#html&quot; class=&quot;headerlink&quot; title=&quot;html&quot;&gt;&lt;/a&gt;html&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="html 成" scheme="https://dubeicheng.github.io/tags/html-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分布式：Dubbo/Zookeeper</title>
+    <link href="https://dubeicheng.github.io/2020/05/27/fen-bu-shi-dubbo-zookeeper/"/>
+    <id>https://dubeicheng.github.io/2020/05/27/fen-bu-shi-dubbo-zookeeper/</id>
+    <published>2020-05-27T12:06:11.000Z</published>
+    <updated>2022-10-28T12:53:51.988Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Dubbo-x2F-Zookeeper&quot;&gt;&lt;a href=&quot;#Dubbo-x2F-Zookeeper&quot; class=&quot;headerlink&quot; title=&quot;Dubbo/Zookeeper&quot;&gt;&lt;/a&gt;Dubbo/Zookeeper&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="Dubbo/Zookeeper 成" scheme="https://dubeicheng.github.io/tags/Dubbo-Zookeeper-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自学Java心得</title>
+    <link href="https://dubeicheng.github.io/2020/05/27/zi-xue-java-xin-de/"/>
+    <id>https://dubeicheng.github.io/2020/05/27/zi-xue-java-xin-de/</id>
+    <published>2020-05-27T12:06:11.000Z</published>
+    <updated>2022-10-28T12:53:51.993Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Java自学心得&quot;&gt;&lt;a href=&quot;#Java自学心得&quot; class=&quot;headerlink&quot; title=&quot;Java自学心得&quot;&gt;&lt;/a&gt;Java自学心得&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="https://dubeicheng.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Swagger</title>
+    <link href="https://dubeicheng.github.io/2020/05/27/springboot2/"/>
+    <id>https://dubeicheng.github.io/2020/05/27/springboot2/</id>
+    <published>2020-05-27T01:19:57.000Z</published>
+    <updated>2022-10-28T12:53:52.006Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Swagger&quot;&gt;&lt;a href=&quot;#Swagger&quot; class=&quot;headerlink&quot; title=&quot;Swagger&quot;&gt;&lt;/a&gt;Swagger&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="SpringBoot2 成" scheme="https://dubeicheng.github.io/tags/SpringBoot2-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot安全:SpringSecurity/Shiro</title>
+    <link href="https://dubeicheng.github.io/2020/05/26/springboot-an-quan-springsecurity-shiro/"/>
+    <id>https://dubeicheng.github.io/2020/05/26/springboot-an-quan-springsecurity-shiro/</id>
+    <published>2020-05-26T04:49:56.000Z</published>
+    <updated>2022-10-28T12:53:51.999Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;SpringSecurity-安全&quot;&gt;&lt;a href=&quot;#SpringSecurity-安全&quot; class=&quot;headerlink&quot; title=&quot;SpringSecurity (安全)&quot;&gt;&lt;/a&gt;SpringSecurity (安全)&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="SpringSecurity 成" scheme="https://dubeicheng.github.io/tags/SpringSecurity-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot整合:Druid/Mybatis</title>
+    <link href="https://dubeicheng.github.io/2020/05/25/springboot-zheng-he-druid-mybatis/"/>
+    <id>https://dubeicheng.github.io/2020/05/25/springboot-zheng-he-druid-mybatis/</id>
+    <published>2020-05-25T14:07:18.000Z</published>
+    <updated>2022-10-28T12:53:51.983Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;SpringBoot-整合Druid&quot;&gt;&lt;a href=&quot;#SpringBoot-整合Druid&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot:整合Druid&quot;&gt;&lt;/a&gt;SpringBoot:整合Druid&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="DRUD 成" scheme="https://dubeicheng.github.io/tags/DRUD-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript</title>
+    <link href="https://dubeicheng.github.io/2019/02/28/javascript/"/>
+    <id>https://dubeicheng.github.io/2019/02/28/javascript/</id>
+    <published>2019-02-28T03:53:32.000Z</published>
+    <updated>2022-10-28T12:53:51.996Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;javaScrip&quot;&gt;&lt;a href=&quot;#javaScrip&quot; class=&quot;headerlink&quot; title=&quot;javaScrip&quot;&gt;&lt;/a&gt;javaScrip&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="javaScript 成" scheme="https://dubeicheng.github.io/tags/javaScript-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS</title>
+    <link href="https://dubeicheng.github.io/2019/01/28/css/"/>
+    <id>https://dubeicheng.github.io/2019/01/28/css/</id>
+    <published>2019-01-28T03:53:15.000Z</published>
+    <updated>2022-10-28T12:53:52.003Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;CSS&quot;&gt;&lt;a href=&quot;#CSS&quot; class=&quot;headerlink&quot; title=&quot;CSS&quot;&gt;&lt;/a&gt;CSS&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="CSS 成" scheme="https://dubeicheng.github.io/tags/CSS-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot:整合JDBC</title>
+    <link href="https://dubeicheng.github.io/2017/05/25/springboot-zheng-he-jdbc/"/>
+    <id>https://dubeicheng.github.io/2017/05/25/springboot-zheng-he-jdbc/</id>
+    <published>2017-05-25T09:56:21.000Z</published>
+    <updated>2022-10-28T12:53:51.980Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;整合JDBC使用&quot;&gt;&lt;a href=&quot;#整合JDBC使用&quot; class=&quot;headerlink&quot; title=&quot;整合JDBC使用&quot;&gt;&lt;/a&gt;整合JDBC使用&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="JDBC 成" scheme="https://dubeicheng.github.io/tags/JDBC-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot</title>
+    <link href="https://dubeicheng.github.io/2017/05/23/springboot/"/>
+    <id>https://dubeicheng.github.io/2017/05/23/springboot/</id>
+    <published>2017-05-23T02:10:07.000Z</published>
+    <updated>2022-10-28T12:53:52.012Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1、Spring&quot;&gt;&lt;a href=&quot;#1、Spring&quot; class=&quot;headerlink&quot; title=&quot;1、Spring&quot;&gt;&lt;/a&gt;1、Spring&lt;/h2&gt;</summary>
+    
+    
+    
+    
+    <category term="SpringBoot1 成" scheme="https://dubeicheng.github.io/tags/SpringBoot1-%E6%88%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ajax</title>
+    <link href="https://dubeicheng.github.io/2016/05/21/ajax/"/>
+    <id>https://dubeicheng.github.io/2016/05/21/ajax/</id>
+    <published>2016-05-21T14:31:15.000Z</published>
+    <updated>2022-10-28T12:53:51.977Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;SpringMVC-Ajax技术&quot;&gt;&lt;a href=&quot;#SpringMVC-Ajax技术&quot; class=&quot;headerlink&quot; title=&quot;SpringMVC:Ajax技术&quot;&gt;&lt;/a&gt;SpringMVC:Ajax技术&lt;/h3&gt;</summary>
+    
+    
+    
+    
+    <category term="Ajax 成" scheme="https://dubeicheng.github.io/tags/Ajax-%E6%88%90/"/>
     
   </entry>
   
