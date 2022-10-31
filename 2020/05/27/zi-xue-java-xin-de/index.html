@@ -471,7 +471,7 @@
 <script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
     (function() {
-        let pwd = 'eaf2067e34d6876930d2b304db688ab6b9d5064b7e682f7831297d39fbe01c92';
+        let pwd = '';
         if (pwd && pwd.length > 0) {
             if (pwd !== CryptoJS.SHA256(prompt('请输入密码阅读博文')).toString(CryptoJS.enc.Hex)) {
                 alert('密码错误，将返回主页！');
