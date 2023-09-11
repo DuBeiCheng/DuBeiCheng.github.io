@@ -7,7 +7,7 @@
     <meta name="keywords" content="EXCEL函数, 成">
     <meta name="description" content="EXCEL函数
 
-一、清洗类函数**1、left()  **
+一、清洗类函数**1、left() **
 
 
 
@@ -20,7 +20,7 @@
 【文本单元格，字符串长度】；=left(D3,3)
 
 
-解释：left函数是一个字符串函数，它返回具有">
+解释：left函数是一个字符串函数，它返回具有指">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -531,14 +531,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.1k
+                    3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    11 分
                 </div>
                 
 
@@ -560,7 +560,7 @@
             <div id="articleContent">
                 <h1 id="EXCEL函数"><a href="#EXCEL函数" class="headerlink" title="EXCEL函数"></a>EXCEL函数</h1><span id="more"></span>
 
-<h2 id="一、清洗类函数"><a href="#一、清洗类函数" class="headerlink" title="一、清洗类函数"></a>一、清洗类函数</h2><p>**1、left()  **</p>
+<h2 id="一、清洗类函数"><a href="#一、清洗类函数" class="headerlink" title="一、清洗类函数"></a>一、清洗类函数</h2><p>**1、left() **</p>
 <table>
 <thead>
 <tr>
@@ -882,6 +882,440 @@
 </tr>
 </tbody></table>
 <p>解释：如果有一个条件为真，则返回true，若全部为假时，则返回false。</p>
+<p><strong>4、iserror()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=iserror(value)</td>
+<td>【要测试的内容】；=iserror(D3/E3)</td>
+</tr>
+</tbody></table>
+<p>解释：用于测试函数式返回的数值是否错误。如果错误，该函数返回TRUE，反之返回FALSE。</p>
+<p><strong>5、iferror()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=iferror(value,value_if_error)</td>
+<td>【要测试的内容，如果错返回内容””】；=iferror(D3/E3,”error”)</td>
+</tr>
+</tbody></table>
+<p>解释：用于用来判断某些内容的 正确与否，正确则返回正确的结果，错误则返回需要显示的信息。</p>
+<p><strong>6、true()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=true()</td>
+<td>【不需要参数】；=true()</td>
+</tr>
+</tbody></table>
+<p>解释：返回逻辑值TRUE。</p>
+<p><strong>7、false()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=false()</td>
+<td>【不需要参数】；=false()</td>
+</tr>
+</tbody></table>
+<p>解释：返回逻辑值FALSE。</p>
+<h2 id="四、关联匹配类函数"><a href="#四、关联匹配类函数" class="headerlink" title="四、关联匹配类函数"></a>四、关联匹配类函数</h2><p><strong>1、vlookup()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=vlookup(lookup_value,table_array,col_index_num,[range_lookup])</td>
+<td>【要匹配查找的内容某一单元格，去匹配查找的数组区域（匹配列在首行），返回的内容所在列数（首行为1），[0精确匹配1近似匹配]】；=vlookup(D3,H6:I9,2,0)</td>
+</tr>
+</tbody></table>
+<p>解释：vlookup函数的作用为在表格的首列查找指定的数据，并返回指定的数据所在行中的指定列处的数据。</p>
+<p><strong>2、Hlookup()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=hlookup(lookup_value,table_array,col_index_num,[range_lookup])</td>
+<td>【要匹配查找的内容某一单元格，去匹配查找的数据区域（匹配行在首行），返回内容所在列数（首行为1），0精确匹配1近似匹配】；=hlookup(D3,A3:H3,2,0)</td>
+</tr>
+</tbody></table>
+<p>解释：hlookup函数可以在表格或数值数组的首行查找指定的数值，并返回表格或数组中指定行的同一列的数值。</p>
+<p><strong>3、lookup()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=lookup(lookup_value,lookup_vector,[result_vector])</td>
+<td>【要匹配查找的内容，去匹配查找的数组区域，返回的内容】；=lookup(1800,D3:D9,E3,E9)，查找工资为1800的员工姓名</td>
+</tr>
+</tbody></table>
+<p>解释：lookup函数是EXCEL中的一种运算函数，实质是返回向量或数组中的值，要求数值必须按升序排序。</p>
+<p><strong>4、index()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=index(array,row_num,[column_num])</td>
+<td>【选定的内容区域，行（列数）以内容区域左上角为起点，列数（可选）】；=index(D3:F6,2,3),返回第2行第3列交叉的值</td>
+</tr>
+</tbody></table>
+<p>解释：index函数是返回表或区域中的值或值的引用，以行列数返回对应的内容。</p>
+<p><strong>5、match()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=match(lookup_value,lookup_array,[match_type])</td>
+<td>【要查找的内容单元格，要在其查找区域（行列），[1小于或等于lookup_valued 的最大值0等于lookup_value的第一个值-1大于或等于lookup_value的最小值]】；=match(1900,D3:D10,1),查看小于1900工资的最大值的位置</td>
+</tr>
+</tbody></table>
+<p>解释：返回指定数值在指定数组区域中的位置。</p>
+<p><strong>6、offset()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=offset(reference,rows,cols,[height],[width])</td>
+<td>【起点，上下便宜行数（向下为正，向上为负），左右偏移列数（向右为正，向左为负），[可选-引用区域行数（含到达点）],[可选-引用区域列数（含到达点）]】；=offset(E8,0,0)，返回E8不偏移值</td>
+</tr>
+</tbody></table>
+<p>解释：offset函数以指定的（单元格或相连单元格区域的引用）为参照系，通过给定便宜量得到新的引用。</p>
+<p><strong>7、row()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=row([reference])</td>
+<td>【引用的单元格】；=row(D3)，查看指定单元格所在行</td>
+</tr>
+</tbody></table>
+<p>解释：获取行号的函数。</p>
+<p><strong>8、column()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=column([reference])</td>
+<td>【引用的单元格】；=column()，查看当前单元格所在列</td>
+</tr>
+</tbody></table>
+<p>解释：获取列号的函数</p>
+<h2 id="五、计算统计类函数"><a href="#五、计算统计类函数" class="headerlink" title="五、计算统计类函数"></a>五、计算统计类函数</h2><p><strong>1、count()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=count(value1,[value2],…)</td>
+<td>【范围1，范围2，…】；=count(D3:D15)</td>
+</tr>
+</tbody></table>
+<p>解释：count函数对给定数据集合或者单元格中数据的个数进行计数。</p>
+<p><strong>2、counta()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=counta(value1,[value2],…)</td>
+<td>【范围1，范围2，…】；=counta(D3:D15)，单元格里共有多少个数字</td>
+</tr>
+</tbody></table>
+<p>解释：counta函数计算区域中不为空的单元格的个数。</p>
+<p><strong>3、countif()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=countif(range,criteria)</td>
+<td>【范围区域，某一条件】；=countif(D3:D15,”&gt;200”)，大于200的数值有多少个</td>
+</tr>
+</tbody></table>
+<p>解释：countif函数在指定区域中按指定条件对单元格进行计数（单条件计数）。</p>
+<p><strong>4、countblank()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=countblank(range)</td>
+<td>【范围】；=countblank(D3:D15)，计算所选范围内有多少个空值</td>
+</tr>
+</tbody></table>
+<p>解释：countblank函数统计指定区域内空白单元格个数。</p>
+<p><strong>5、countifs()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=countifs(criteria_range1,criteria1,criteria_range2,criteria2),…</td>
+<td>【范围区域1，某一条件1，范围区域2，某一条件2，…】；=countifs(D3:D10,”dubeicheng”,E3:E10,”&gt;200”)，统计姓名为“dubeicheng”且花费大于200的人数</td>
+</tr>
+</tbody></table>
+<p>解释：countifs函数统计多个区域中满足给定条件的单元格的个数。</p>
+<p><strong>6、sum()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=sum(range)</td>
+<td>【范围】；=sum(D3:D10)</td>
+</tr>
+</tbody></table>
+<p>解释：sum函数统计指定区域的数值进行求和。</p>
+<p><strong>7、sumif()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=sumif(range,criteria,[sum_range])</td>
+<td>【范围，条件，[实际求和范围]】；=sumif(D3:D10,”dubeicheng”,E3:E10)，姓名为“dubeicheng”总工花了多少钱</td>
+</tr>
+</tbody></table>
+<p>解释：sumif函数对指定条件的值求和。</p>
+<p><strong>8、sumifs()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=sumifs(sum_range,criteria_range1,criteria1,…)</td>
+<td>【实际求和范围，范围1，条件1，…】；=sumifs(D3:D10,D3:D10,”&gt;100”,D3:D10,”&lt;210”)，统计大于100小于210的数的和</td>
+</tr>
+</tbody></table>
+<p>解释：sumifs函数统计多个区域中满足给定条件数据之和（单字段多条件求和）。</p>
+<p><strong>9、sumproduct()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=sumproduct(array1*,[array2]<em>,[array3]</em>,…)</td>
+<td>【条件数组1，[条件数组2]，[条件数组3]，…】；=sumproduct(D3:D6,E3:E6)，计算销售额，单价*数量的和</td>
+</tr>
+</tbody></table>
+<p>解释：sumproduct函数是在给定的几组数组中，将数组间对应的元素相乘，并返回乘积之和。</p>
+<p><strong>10、max()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=max(number1,[number2],…)</td>
+<td>=max(D3:D10)，查找所选区域最大值</td>
+</tr>
+</tbody></table>
+<p>解释：max函数返回一组中的最大值。</p>
+<p><strong>11、min()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=min(number1,[number2],…)</td>
+<td>=min(D3:D10)，查找所选区域最小值</td>
+</tr>
+</tbody></table>
+<p>解释：min函数返回一组中的最小值。</p>
+<p><strong>12、average()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=average(value1,[value2],…)</td>
+<td>【值1，值2，…】；=average(D3:D10)，查找所选区域平均值</td>
+</tr>
+</tbody></table>
+<p>解释：average返回所选区域的平均值。</p>
+<p><strong>13、mod()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=mod(number,divisor)</td>
+<td>【被除数，除数】；=mod(9,3)，9能否被3整除</td>
+</tr>
+</tbody></table>
+<p>解释：mod函数得出不能被整除的数，能被整除返回0，不能被整除返回余数。</p>
+<p><strong>14、rank()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=rank(number,ref,[order])</td>
+<td>【需要计算排位数字，在某个区域，[]】；=rank(D3,D1:d10)，查看某数据单价排名多少</td>
+</tr>
+</tbody></table>
+<p>解释：rank函数返回一列数字的数字排位。</p>
+<p><strong>15、round()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=round(number,num_digits)</td>
+<td>【数值，小数点后位数】；=round(D3,2)，保留2位小数</td>
+</tr>
+</tbody></table>
+<p>解释：round函数返回一个数值，该数值是按照指定的小数位数进行四舍五入运算的结果。</p>
+<p><strong>16、floor()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=floor(number,significance)</td>
+<td>【数值，向下取舍】;=floor(3,6,2)，将3，6向下取舍，使其等于2的倍数</td>
+</tr>
+</tbody></table>
+<p>解释：floor函数将数字向下取舍入到最近接近的指定基数的倍数，如果number为正数，significance为负数，则函数返回错误值#NUM！。</p>
+<p><strong>17、rand()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=rand()，不需要参数</td>
+<td>=rand()，返回0-1之间的随机数</td>
+</tr>
+</tbody></table>
+<p>解释：rand函数返回0-1之间的随机数。</p>
+<p><strong>18、int()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=int(number)</td>
+<td>【整数】；=int(D3)</td>
+</tr>
+</tbody></table>
+<p>解释：int函数将单元格内数值向下取整。</p>
+<p><strong>19、randbetween()</strong></p>
+<table>
+<thead>
+<tr>
+<th>使用：</th>
+<th>解释：</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>=randbetween(bottom,top)</td>
+<td>【返回bottom~top之间的随机数】;=randbetween(100,200)，返回100-200之间随机的一个数</td>
+</tr>
+</tbody></table>
+<p>解释：randbetween函数返回大于等于指定的最小值，小于指定最大值之间的一个随机整数。</p>
 
                 
             </div>
@@ -1569,7 +2003,7 @@
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">139.8k</span>
+                        class="white-color">141.6k</span>
             
             
             
